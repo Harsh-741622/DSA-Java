@@ -2,7 +2,7 @@
 // Approach: Prefix Sum
 // Time Complexity: O(n^2) 
 // Space Complexity: -
-// Source: Apna College Sigma Batch
+// Source: Apna College Sigma 11.0 Batch
 
 public class Main {
     public static void main(String args[]) {
