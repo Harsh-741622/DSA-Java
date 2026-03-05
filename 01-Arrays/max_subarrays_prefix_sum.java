@@ -4,6 +4,9 @@
 // Space Complexity: -
 // Source: Apna College Sigma 11.0 Batch
 
+// Logic: Create a array which contain sum of element of arr[] till ith index at each index of the new array. 
+//         then currsum = prefixSumarray[end] - prefixSumarray[start -1]
+
 public class Main {
     public static void main(String args[]) {
         int[] numbers = { 2, 4, 1, 5, -2, 5 };
