@@ -1,8 +1,7 @@
 // Problem: Maximum SubArrays Sum
-// Approach: Kadanes Algorithm 
+// Approach: Kadanes Algorithm (If currSum < 0 then currSum = 0 )
 // Time Complexity: O(n)
-// Space Complexity: -
-// Logic: If currSum < 0 then currSum = 0 
+// Space Complexity: O(1)
 // Source: Apna College Sigma 11.0 Batch 
 
 public class Main {
