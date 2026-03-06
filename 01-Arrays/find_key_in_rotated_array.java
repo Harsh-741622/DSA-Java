@@ -3,8 +3,6 @@
 //           Condition to check left side is sorted is arr[start] <= arr[mid] { equals is imp since sometime key present at start == last } 
 // Time Complexity: O(logn)
 // Space Complexity: O(1)
-// Logic: At every instance one side either right or left is ALWAYS Sorted 
-//        Condition to check left side is sorted is arr[start] <= arr[mid] { equals is imp since sometime key present at start == last } 
 // Source: Apna College Sigma 11.0 Batch 
 
 
