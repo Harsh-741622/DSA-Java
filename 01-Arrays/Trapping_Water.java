@@ -1,4 +1,8 @@
-
+// Problem: Trapping Rain Water  
+// Approach: Create Two Auxilary array which store RighMax and LeftMax then WaterLevel = Min(RightMax , LeftMax) 
+// Time Complexity: O(n)
+// Space Complexity: O(n) (Not Yet Optimized Way) 
+// Source: Apna College Sigma 11.0 Batch 
 import java.util.*;
 
 public class Main {
