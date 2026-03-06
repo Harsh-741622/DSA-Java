@@ -2,7 +2,8 @@
 // Approach:
 // Time Complexity: 
 // Space Complexity:
-// Logic: 
+// Logic: At every instance one side either right or left is ALWAYS Sorted 
+//        Condition to check left side is sorted is arr[start] <= arr[mid] { equals is imp since sometime key present at start == last } 
 // Source: Apna College Sigma 11.0 Batch 
 
 
@@ -23,15 +24,17 @@ public class Main {
             if(numbers[mid] == key){
                 return mid;
             }
+            // if Left Sorted 
             if(numbers[start] <= numbers[mid]){
                 if(numbers[start] <= key && key < numbers[mid]){ // Since we already checked mid == key so we don't need to check key <= numbers[mid];
                     last = mid - 1 ; 
                 } else {
                     start = mid + 1 ; 
                 }
-            } 
-            else {
-                 if(numbers[mid] < key && key <= numbers[last]){
+            }
+            // if Right Sorted 
+            else { // arr[start] > arr[mid] 
+                 if(numbers[mid] < key && key <= numbers[last]){ // Check if key inside the right sorted array or not ! 
                     start = mid + 1 ; 
                 } else {
                     last = mid - 1 ; 
