@@ -2,6 +2,7 @@
 // Approach: Kadanes Algorithm 
 // Time Complexity: O(n)
 // Space Complexity: -
+// Logic: If currSum < 0 then currSum = 0 
 // Source: Apna College Sigma 11.0 Batch 
 
 public class Main {
